@@ -1,0 +1,7 @@
+{
+    "Local_driver_path":"user_path/autoupdateScript/chromedriver.exe",
+    "zip_file_path":"user_path/autoupdateScript/chromedriver-win64.zip",
+    "Extraction_path":"user_path/autoupdateScript",
+    "Archieve_path":"user_path/autoupdateScript/Archieve_drivers/chromedriver.exe",
+    "Archieve_path_rename":"user_path/autoupdateScript/Archieve_drivers/"
+}
