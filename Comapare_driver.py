@@ -120,8 +120,6 @@ else:
 
     #==================================================================================================================
     #Extracting zip file
-    #zip_file_path = 'C:/Users/nlande/OneDrive - Capgemini/Desktop/autoupdateScript/chromedriver-win64.zip'
-    #extraction_path = 'C:/Users/nlande/OneDrive - Capgemini/Desktop/autoupdateScript'
     try:
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
             zip_ref.extractall(extraction_path)
@@ -135,3 +133,4 @@ else:
     shutil.move(extraction_path+"/chromedriver-win64/chromedriver.exe",Local_driver_path)
     #==================================================================================================================
    
+
